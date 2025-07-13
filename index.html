@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Correo Verificado!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      background: #f0f4f8;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: #2d3748;
+      height: 100%;
+    }
+    .wrapper {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100%; padding: 1rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      max-width: 400px; width: 100%;
+      text-align: center; overflow: hidden;
+    }
+    .card header {
+      background: #667eea; padding: 2rem 1rem;
+    }
+    .card header h1 {
+      margin: 0; color: #fff; font-size: 1.5rem;
+    }
+    .card .content {
+      padding: 2rem 1.5rem;
+    }
+    .card .content svg {
+      width: 64px; height: 64px;
+      margin-bottom: 1rem; fill: #667eea;
+    }
+    .card .content h2 {
+      margin: 0 0 0.5rem; font-size: 1.25rem;
+      color: #2d3748;
+    }
+    .card .content p {
+      margin: 0.5rem 0 1.5rem; font-size: 1rem;
+      line-height: 1.5; color: #4a5568;
+    }
+    .card .content a {
+      display: inline-block; padding: 0.75rem 1.5rem;
+      background: #667eea; color: #fff; text-decoration: none;
+      border-radius: 6px; font-weight: 600;
+    }
+    @media (max-width: 360px) {
+      .card header h1 { font-size: 1.25rem; }
+      .card .content h2 { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <header>
+        <h1>¡Correo Verificado!</h1>
+      </header>
+      <div class="content">
+        <svg viewBox="0 0 24 24"><path d="M10 15.172l-3.95-3.95-1.414 1.414L10 18 20.364 7.636l-1.414-1.414z"/></svg>
+        <h2>¡Gracias por confirmar!</h2>
+        <p>Tu dirección de correo ha sido verificada con éxito. Ya puedes cerrar esta pestaña y volver a la aplicación.</p>
+        <a href="https://tudominio.github.io/tu-repo">Volver a la app</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
